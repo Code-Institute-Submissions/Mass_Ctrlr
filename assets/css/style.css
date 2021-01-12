@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #202020;
+}
+
+h2 span{
+    color:#eb0c0c;
+}
+
+#band-name{
+   float: left;
+   font-size: 300%;
+   margin-left: 25px;
+}
+
+#navigation{
+font-size: 120%;
+list-style-type: none;
+letter-spacing: 3px;
+float: right
+}
+
+#band-name, #navigation{
+    line-height: 80px;
+}
+
+#navigation li{
+    float: left;
+    margin-right: 25px;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#navigation a:hover{
+    border-bottom: 3px solid #eb0c0c;
+}
+
+.active{
+    border-bottom: 3px solid #eb0c0c;
+}
+
+#hero-image{
+    margin: 0px 16px;
+    height: 500px;
+    background: url(/assets/images/mass_ctrlr.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+
+#image-container{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
