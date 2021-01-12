@@ -61,15 +61,14 @@ float: right
 }
 
 #hero-image{
-    margin: 0px 16px;
-    height: 500px;
+    height: 600px;
     background: url(/assets/images/mass_ctrlr.jpg) no-repeat center center;
     background-size: cover;
     
 }
 
 #image-container{
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
