@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
 
+
+/*general*/
 *{
     margin: 0;
     padding: 0;
@@ -12,22 +14,53 @@ body{
     color: #222222;
 }
 
-h2{
+/*Nav bar*/
+
+.navbar-brand{
+   font-size: 300%;
+   font-weight: bolder;
+   padding: 0;
+}
+
+.navbar-brand, h2{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #202020;
 }
+/*Added as bootstrap was changing colour when hovering.*/
+.navbar-brand:hover{
+    color: #202020;
+}
 
-h2 span{
+.navbar-brand span{
     color:#eb0c0c;
 }
 
-#band-name{
-   float: left;
-   font-size: 300%;
-   margin-left: 25px;
+.navbar-brand, .navbar-nav{
+    line-height: 48px;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
 }
+
+.navbar-nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 120%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0px 4px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.navbar-nav a:hover{
+     border-bottom: 2px solid #eb0c0c;
+}
+
+/*
+- nav bar -
 
 #navigation{
 font-size: 120%;
@@ -52,13 +85,8 @@ float: right
     text-transform: uppercase;
 }
 
-#navigation a:hover{
-    border-bottom: 3px solid #eb0c0c;
-}
-
-.active{
-    border-bottom: 3px solid #eb0c0c;
-}
+*/
+/* cover image*/
 
 #hero-image{
     height: 600px;
