@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- Navigation bar-->
-    <nav class="navbar navbar-light navbar-expand-sm" style="background-color: white;">
+    <nav class="navbar navbar-light navbar-expand-sm">
         <div class="container-fluid">
             <a href="/" class="navbar-brand">Mass<span>_</span>Ctrlr</a>
 
@@ -35,56 +35,98 @@
             </div>
         </div>
     </nav>
+    <hr class="page-divider">
 <!-- hero image-->
     <div class="container-fluid image-container">
     </div>
+    <hr class="page-divider">
+<!--Content - About/News-->
     <article>
-<!-- News  (maybe put news on different page with music?-->
-    
-<!--about the band-->
-<div class="container about-band-container">
-    
-
-</div>
+        <div class="container-fluid content-container">
+            <h3><span>About the Band:</span></h3>
+            <p>Mass_Ctrlr are a 4 piece rock band from Manchester who started out in 2015 when a group of musical friends, who worked together at John Lewis, decided to start jamming together, writing songs which then turned into gigging. **Need to write a better blurb - get Jack to help**</p>
+            <table class="table table-borderless band-member-list">
+                <thead>
+                    <tr>
+                        <th scope="col">Vocals</th>
+                        <th scope="col">Lead Guitar</th>
+                        <th scope="col">Bass Guitar</th>
+                        <th scope="col">Drums</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jack Armstrong</td>
+                        <td>Chris Reece</td>
+                        <td>Josh Stewart</td>
+                        <td>Tom Cliffe</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="band-member-img">
+                                <img src="/assets/images/jack_thumbnail.png" alt="Jack" class="rounded-circle" height="100" width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="band-member-img">
+                                <img src="/assets/images/chris_thumbnail.png" alt="Chris" class="rounded-circle" height="100" width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="band-member-img">
+                                <img src="/assets/images/Josh.jpg" alt="Josh" class="rounded-circle" height="100" width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="band-member-img">
+                                <img src="/assets/images/tom_thumbnail.png" alt="Tom" class="rounded-circle" height="100" width="100">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table> 
+            <p>Our Musical influences and inspirations are vaired which comes across in our music and performances...Imagine Foo fighters energetic drumming with Led Zeppelin vocals, mixed with bluesy guitar riffs</p>
+            <p>Mass Ctrlr are an up-and-coming Manchester band you do not want to miss live!</p>
+            <p>Check out our <a href="#">music page</a> to see when and where we are playing next.</p>
+        </div>
     </article>
 
     <hr class="page-divider">
-    <footer class="container footer-container">
+    <footer class="container-fluid footer-container">
         <div class="row">
-            
-            <div class="col-4">
-                <p class="inline-block"> Listen to our music here:</p>
-                <ul class="list-inline music-links">
+            <div class="col-sm-12 col-md-6">
+                <p class="inline-block"> Music & social pages:</p>
+                <br class="footer-break d-md-none">
+                <ul class="list-inline media-page-links">
                     <li class="list-inline-item">
-                        <a href="#"> <i class="fab fa-spotify" aria-hidden="true"></i>
+                        <a href="https://open.spotify.com/artist/3LXMrLKDPwLVrsydXoOwaF" target="_blank"> <i class="fab fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify.</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#"> <i class="fab fa-bandcamp" aria-hidden="true"></i>
-                            <span class="sr-only">Bandcamp.</span>
+                        <a href="https://music.apple.com/gb/album/step-back/1449079273?fbclid=IwAR27j0V_MKwM_P3_PYgj8kq32BUmV6ZXuQM6up3qYRtoDnQkfiUNSM5j15M&i=1449079274" target="_blank"> <i class="fab fa-apple" aria-hidden="true"></i>
+                            <span class="sr-only">Apple Music.</span>
                         </a>
                     </li>
-                </ul>
-            </div>
-            <div class="col-4">
-                <p class="inline-block"> Follow us on social media:</p>
-                <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a href="#"> <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/masscontrollerband" target="_blank"> <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook.</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#"> <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/mass_ctrlr/?hl=en" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram.</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/MassBand" target="_blank"> <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter.</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="col-4">
-                <p class="inline-block">
-                    Want more info or to book us? <br> Get in touch here: 
+            <div class="col-sm-12 col-md-6">
+                <p class="inline-block"> Want more info or to book us? Get in touch: 
                     <a href="#"><i class="fas fa-paper-plane" aria-hidden="true"></i>  <!--better icon for get in touch.-->
                         <span class="sr-only">Contact us link.</span>
                     </a>
