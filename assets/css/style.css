@@ -12,7 +12,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     color: #222222;
-    background-color: #F7F7F9; /*unsure whether to have background color as white or offwhite instead #FFFAF1 #FCF6F5FF*/
+    background-color: #F7F7F9;
 }
 
 .inline-block{
@@ -90,7 +90,7 @@ h3 span{
     -o-background-size: cover;
     background-size: cover;  
 }
-/*main content*/
+/*main page content*/
 
 .content-container{
     font-family: inherit;
@@ -117,9 +117,61 @@ h3 span{
     text-transform: uppercase;
 }
 
+/*gallery page*/
+
+#gallery{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    background-color: black;
+}
+
+#gallery img{
+    width: 100%;
+}
+
+/*Contact page*/
+
+.contact-heading{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.contact-subheading{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #202020;
+    margin-top: 24px;
+    margin-bottom: 24px
+}
+
+.contact-subheading span{
+    border-bottom: 2px solid #D2302C;
+}
+
+.center-form{
+    padding-top: 12px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-danger{
+    color: #F7F7F9;
+    background-color: #D2302C;
+    border-color: #D2302C;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.btn-danger:hover{
+    color: #D2302C;
+    background-color:#F7F7F9;
+    border-color: #D2302C;
+}
+
 /*footer*/
-
-
 
 .footer-container{
     text-align: center;
@@ -170,8 +222,32 @@ text-align: center;
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width:480px) {
     .media-page-links, .media-page-links li{
     display: inline;
+}
+}
+
+/*media queries for gallery page*/
+
+@media screen and (max-width:992px){
+    #gallery{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width:800px){
+    #gallery{
+        column-count: 2;
+    }
+}
+
+/*media queries for contact page*/
+@media (min-width:992px) {
+.center-form{
+    padding-top: 36px;
+    min-height: 360px;
+    margin: 0 auto;
+    max-width: 50%;
 }
 }
