@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');  /* should i use the link tag in html instead? what is the difference?*/
 
-
 /*general*/
 *{
     margin: 0;
@@ -13,6 +12,8 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #222222;
     background-color: #F7F7F9;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .inline-block{
@@ -25,7 +26,7 @@ body{
 }
 
 h3{
-margin: 12px 0;
+margin: 12px 0 18px;
 }
 
 h3 span{
@@ -37,7 +38,6 @@ h3 span{
 .navbar-brand{
    font-size: 300%;
    font-weight: bolder;
-   padding: 0;
    border: 6px solid #202020;
    padding: 10px;
 }
@@ -61,7 +61,7 @@ h3 span{
 .navbar-brand, .navbar-nav{
     line-height: 48px;
     letter-spacing: 3px;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
 }
 
 .navbar-nav a{
@@ -70,14 +70,18 @@ h3 span{
     font-size: 120%;
     font-weight: bolder;
     text-transform: uppercase;
-    padding: 0;
     margin: 0px 4px;
+    padding: 0;
     display: inline-block;
-    line-height: 20px;
+    line-height: 48px;
 }
 
 .navbar-nav a:hover{
      border-bottom: 2px solid #D2302C;
+}
+
+.navbar-nav .active>.nav-link{
+    border-bottom: 2px solid #D2302C;
 }
 
 /* cover image*/
@@ -88,7 +92,7 @@ h3 span{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;  
+    background-size: cover;
 }
 /*main page content*/
 
@@ -97,7 +101,7 @@ h3 span{
     color: inherit;
     margin-left: 6px;
     font-weight: bold;
-    text-align: center;
+    text-align: justify;
 }
 
 .content-container a{
@@ -115,6 +119,30 @@ h3 span{
     color:#202020;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+/*music page*/
+
+.music-container, .live-container{
+    font-family: inherit;
+    color: inherit;
+    margin-left: 6px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.music-container a{
+    color: #D2302C;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.video-container{
+    text-align: center;
+}
+
+.video{
+    display: inline;
 }
 
 /*gallery page*/
@@ -157,10 +185,17 @@ h3 span{
     max-width: 70%;
 }
 
+.form-control{
+    border: 1px solid #D2302C;
+    margin: 6px;
+}
+
 .btn-danger{
     color: #F7F7F9;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     background-color: #D2302C;
-    border-color: #D2302C;
+    border: 2px solid #D2302C;
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -168,7 +203,7 @@ h3 span{
 .btn-danger:hover{
     color: #D2302C;
     background-color:#F7F7F9;
-    border-color: #D2302C;
+    border: 2px solid #D2302C;
 }
 
 /*footer*/
@@ -227,6 +262,9 @@ font-size: 18px;
     display: inline;
 }
 }
+
+/*media queries for music page*/
+
 
 /*media queries for gallery page*/
 
