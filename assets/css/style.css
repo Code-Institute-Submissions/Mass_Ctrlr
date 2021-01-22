@@ -108,17 +108,22 @@ h3 span{
     color: #D2302C;
     text-decoration: underline;
 }
+.band-member-list{
+    text-align: center;
+}
 
 .band-member-list th{
     color: #D2302C;
     font-weight: bolder;
     text-transform: uppercase;
+    padding: 0;
 }
 
 .band-member-list td{
     color:#202020;
     font-weight: bolder;
     text-transform: uppercase;
+
 }
 
 /*music page*/
@@ -235,7 +240,7 @@ font-size: 18px;
     color: #D2302C;
 }
 
-/*media queries*/
+/*media queries nav bar and main page*/
 
 @media (max-width: 480px) {
     .image-container{
@@ -252,7 +257,7 @@ font-size: 18px;
     .navbar-nav a{
         font-size: 80%;
     }
-    table td .band-member-img{
+    table{
         display: none;
     }
 }
