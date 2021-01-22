@@ -88,7 +88,7 @@ h3 span{
 
 .image-container{
     height: 600px;
-    background: url(./assets/images/mass_ctrlr.jpg) no-repeat center center; 
+    background: url(../assets/images/mass_ctrlr.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
