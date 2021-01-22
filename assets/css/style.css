@@ -245,7 +245,7 @@ font-size: 18px;
 @media (max-width: 480px) {
     .image-container{
     height: 200px;
-    background: url(/assets/images/mass_ctrlr_small.jpg) no-repeat center center; 
+    background: url(../images/mass_ctrlr_small.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
