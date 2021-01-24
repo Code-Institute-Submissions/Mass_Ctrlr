@@ -230,6 +230,7 @@ h3 span{
     margin-left: 12px;
     margin-bottom: 6px;
     display: inline;
+    text-decoration: none;
 }
 
 .footer-container p{
@@ -245,7 +246,7 @@ font-size: 18px;
     color: #D2302C;
 }
 
-/*media queries nav bar and main page*/
+/*media queries nav bar, footer and main page content*/
 
 @media (max-width: 480px) {
     .image-container{
@@ -264,6 +265,9 @@ font-size: 18px;
     }
     table{
         display: none;
+    }
+    .footer-container a{
+        color: #D2302C
     }
 }
 
@@ -304,4 +308,10 @@ font-size: 18px;
     margin: 0 auto;
     max-width: 50%;
 }
+}
+
+@media screen and (max-width:800px){
+    .btn-danger{
+        font-size: 1rem;
+    }
 }
