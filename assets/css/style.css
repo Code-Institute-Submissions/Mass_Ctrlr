@@ -91,7 +91,7 @@ h3 span{
 /* cover image*/
 
 .image-container{
-    height: 600px;
+    height: 500px;
     background: url(../images/mass_ctrlr.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -146,14 +146,22 @@ h3 span{
     padding: 0;
 }
 
-.video-container{
-    text-align: center;
-}
 
-.video{
-    display: inline;
+/*.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
     overflow: hidden;
 }
+
+.video iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    Height:100%;
+    width: 100%;
+    margin: 5px;
+}*/
 
 /*gallery page*/
 
@@ -248,9 +256,9 @@ font-size: 18px;
 
 /*media queries nav bar, footer and main page content*/
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .image-container{
-    height: 200px;
+    height: 250px;
     background: url(../images/mass_ctrlr_small.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -271,37 +279,43 @@ font-size: 18px;
     }
 }
 
-@media (min-width:480px) {
+@media (max-width:768px) {
     .media-page-links, .media-page-links li{
     display: inline;
 }
 }
 
-/*media queries for music page*/
 
-@media screen and (max-width:800px){
-    .video iframe{
-       width: 95%;   
+/*media queries for music page
+
+@media screen and (max-width:1200px){
+    .video-container{
+        column-count: 4;
     }
 }
 
+@media screen and (max-width:1024){
+    .video-container{
+        column-count: 2;
+    }
+}*/
 
 /*media queries for gallery page*/
 
-@media screen and (max-width:992px){
+@media screen and (max-width:1024px){
     #gallery{
         column-count: 3;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     #gallery{
         column-count: 2;
     }
 }
 
 /*media queries for contact page*/
-@media (min-width:992px) {
+@media (min-width:1024px) {
 .center-form{
     padding-top: 36px;
     min-height: 360px;
@@ -310,7 +324,7 @@ font-size: 18px;
 }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .btn-danger{
         font-size: 1rem;
     }
