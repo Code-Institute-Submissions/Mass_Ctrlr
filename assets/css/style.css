@@ -37,6 +37,13 @@ h3 span{
     border-bottom: 2px solid #D2302C;
 }
 
+h4{
+margin: 12px 0 18px;
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+font-size: 16px;
+}
+
 /*Nav bar*/
 
 .navbar-brand{
@@ -146,22 +153,15 @@ h3 span{
     padding: 0;
 }
 
-
-/*.video{
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+.music-player{
+    text-align: center;
 }
 
-.video iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    Height:100%;
-    width: 100%;
-    margin: 5px;
-}*/
+.fb-video-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*gallery page*/
 
@@ -279,7 +279,7 @@ font-size: 18px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 992px) {
     .media-page-links, .media-page-links li{
     display: inline;
 }

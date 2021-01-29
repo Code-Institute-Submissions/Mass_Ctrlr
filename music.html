@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
+<!-- Facebook code to embed videos - developor site advised to put here-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="YRN1mRXG"></script>
 <!-- Navigation bar-->
     <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container-fluid">
@@ -38,30 +41,25 @@
     <hr class="page-divider">
     <article>
         <div class="container-fluid music-container">
-            <h3><span>Music/Gig news:</span></h3>
-                <p>Our latest single "Step Back" is available to listen to in full on
+            <h3><span>Music news:</span></h3>
+                <p>The latest single "Step Back" is available to listen to in full on
                 <a href="https://open.spotify.com/track/3eCLtQCCp0JZPjDhMHmFjZ" target="_blank" rel="noopener">Spotify</a> and 
                 <a href="https://music.apple.com/gb/artist/mass-ctrlr/1448979959" target="_blank" rel="noopener">Apple Music</a>. More tracks to follow when we are allowed back in the studio!</p>
-                <p>Unfortunately we do not have any upcoming gigs in place due to the pandemic and current lockdown restrictions within the UK. We miss you all a lot and as soon as music venues are allowed to open again, we will be back and ready to ROCK!</p>
-                <p>In the meantime, stay safe and stay peachy!!</p>
-                <p>If you still need your Mass Ctrlr fix, here are a few of videos from past gigs and practice sessions.</p>
-            <div class="container-fluid video-container row">
-                <div class="video col-sm-12 col-lg-6 d-lg-inline col-xl-4">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjacko.s.armstrong%2Fvideos%2F2662051963806587%2F&width=500&show_text=false&height=909&appId" width="400" height="625" style="border:none;overflow:hidden" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
+                <div class="music-player">
+                <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/step-back-single/1449079273"></iframe>
                 </div>
-                <div class="video col-sm-12 col-lg-6 d-lg-inline col-xl-4">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasscontrollerband%2Fvideos%2F419344245198056%2F&width=500&show_text=false&height=885&appId" width="400" height="625" style="border:none;overflow:hidden" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
+            <h3><span>Gig news:</span></h3>    
+                <p>Due to the COVID-19 pandemic and current lockdown restrictions within the UK, Mass Ctrlr have no live music events planned currently. As soon as restrictions on music events are lifted, we will be back!</p>
+                <p>If you still need your Mass Ctrlr fix, here are a couple of videos from past gigs for you to enjoy!</p>
+            <div class="container video-container">
+                <div class="row">
+                    <div class="fb-video-container col-xs-12 col-md-6">
+                        <div class="fb-video" data-href="https://www.facebook.com/masscontrollerband/posts/680691299063348" data-width="350" data-show-text="false"><blockquote cite="https://www.facebook.com/masscontrollerband/posts/680691299063348" class="fb-xfbml-parse-ignore"><p>Fun gig yesterday ❤️ heres our new song</p>Posted by <a href="https://www.facebook.com/masscontrollerband/">Mass Controller</a> on&nbsp;<a href="https://www.facebook.com/masscontrollerband/posts/680691299063348">Monday, 26 August 2019</a></blockquote></div>
+                    </div>
+                    <div class="fb-video-container col-xs-12 col-md-6">
+                    <div class="fb-video" data-href="https://www.facebook.com/masscontrollerband/videos/419344245198056/" data-width="350" data-show-text="false"><blockquote cite="https://developers.facebook.com/masscontrollerband/videos/419344245198056/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/masscontrollerband/videos/419344245198056/"></a><p>Thanks everyone last night was a blast ❤️❤️ Carnival Club let’s do this again sometime 📞📞</p>Posted by <a href="https://www.facebook.com/masscontrollerband/">Mass Controller</a> on Sunday, 17 June 2018</blockquote></div>
+                    </div>
                 </div>
-                <div class="video d-sm-none col-lg-6 d-lg-inline">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasscontrollerband%2Fvideos%2F377288676070280%2F&width=500&show_text=false&height=625&appId" width="500" height="625" style="border:none;overflow:hidden" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
-                </div>
-                <div class="video d-sm-none col-lg-6 d-lg-inline">
-                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasscontrollerband%2Fvideos%2F352401508558997%2F&width=500&show_text=false&height=625&appId" width="500" height="625" style="border:none;overflow:hidden" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                </iframe>
-                </div> 
             </div>
         </div>           
     </article>
@@ -71,7 +69,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <p class="inline-block"> Music & social pages:</p>
-                <br class="footer-break d-md-none">
+                <br class="footer-break d-m-none">
                 <ul class="list-inline media-page-links">
                     <li class="list-inline-item">
                         <a href="https://open.spotify.com/artist/3LXMrLKDPwLVrsydXoOwaF" target="_blank" rel="noopener"> <i class="fab fa-spotify" aria-hidden="true"></i>
@@ -101,10 +99,13 @@
                 </ul>
             </div>
             <div class="col-sm-12 col-md-6">
-                <p class="inline-block">Want to book us or get more info? Get in touch:</p>
+                <p class="inline-block">Want to book us or get more info?</p>
+                <p>Get in touch: 
                     <a href="contact.html"><i class="fas fa-paper-plane" aria-hidden="true"></i>
                         <span class="sr-only">Contact us link.</span>
                     </a>
+                </p>
+                    
             </div>
         </div>
     </footer>
