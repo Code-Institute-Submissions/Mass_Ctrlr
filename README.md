@@ -2,6 +2,8 @@
 
 *Developed and designed as part of Milestone Project 1: User Centric Frontend Development module.*  
 
+[Please view the live project here](https://vivioli87.github.io/Mass_Ctrlr/)
+
 ## Table of Contents
 
 1. Overview
