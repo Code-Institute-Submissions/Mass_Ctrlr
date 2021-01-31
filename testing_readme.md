@@ -80,10 +80,12 @@ No errors for home page.
 
 #### Music page
 
-A warning and error came up on the music page (see screenshot below) both were from the embedded code for the apple music player. I removed the code relating highlighted in the validator and will check the player still functions correctly.
+A warning and error came up on the music page (see screenshot below) both were from the embedded code for the apple music player. I removed the code highlighted in the validator and will check the player still functions correctly.
 
 ![Music page - validation (initial report with errors)](./assets/readme_images/music_page_validation(errors).png)
 ![Music page - validation](./assets/readme_images/music_page_validation.png)
+
+After checking Functionality after removing the code, the apple music player would not show.
 
 #### Gallery page
 
