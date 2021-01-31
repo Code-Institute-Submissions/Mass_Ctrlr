@@ -85,7 +85,7 @@ A warning and error came up on the music page (see screenshot below) both were f
 ![Music page - validation (initial report with errors)](./assets/readme_images/music_page_validation(errors).png)
 ![Music page - validation](./assets/readme_images/music_page_validation.png)
 
-After checking Functionality after removing the code, the apple music player would not show.
+After checking Functionality after removing the code, the apple music player would not show - I added back in the "allow-same-origin" attribute as this was only a warning rather than an error. Adding this back in fixed the issue of the player no longer showing.
 
 #### Gallery page
 
@@ -164,6 +164,11 @@ After dealing with these warnings this is now the results of the Lighthouse repo
 - After deploying my website on Github pages, I noticed that the images that had worked on previews ob my workspace, no longer worked.
     - for images within html files I added . infront of the /assets/ filepath to fix this issue.
     - for images within the style.css file I added .. infront of the /images/ filepath to fix this issue.
+
+- After checking functionality after removing the code highlighted during the music page validation exercise, the apple music player would not show - I added back in the "allow-same-origin" attribute as this was only a warning rather than an error. Adding this back in fixed the issue of the player no longer showing.
+
+- For some reason the facebook embedded videos disappeared from browsers after fixing the issue above. Unclear as to the reason as I had not changed any of that code. 
+    - checked embedded code again, re-added to ensure most recent code was added. Re-checked on all personal devices.
 
 
 
