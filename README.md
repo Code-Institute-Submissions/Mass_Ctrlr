@@ -91,13 +91,15 @@ The initial webpage layouts were sketched on the paper. Upon agreement of the la
 
 ### Color Scheme
 
-- I used three main colours for this project based on an existing logo the band use. The most eye catching colour being red. According to the Color Psychology shades of red are linked to passion and power which I believe are fitting for a rock band that are passionate about live music.
-- The color # and # were used for text the darker shade being used for headings to make them stand out. The red color # was used sparingly to make key elements stand out, such as underlining headings, page dividers and links. Furthermore, the light background works well with the dark grey text and red highlights due to its contrast.
+- I used three main colours for this project based on an existing logo the band use. The most eye catching colour being red. I also knew that the image on the landing page was one I wanted to use which also has a lot of red in the picture. According to the Color Psychology shades of red are linked to passion and power which I believe are fitting for a rock band that are passionate about live music.
+- The color #202020 and #222222 were used for text the darker shade being used for headings to make them stand out. The red color # was used sparingly to make key elements stand out, such as underlining headings, page dividers and links. Furthermore, the light background works well with the dark grey text and red highlights due to its contrast.
 - To find an appealing off-white/red contrast, I happened upon the color combo on this [website](https://looka.com/blog/logo-color-combinations/) (Number 17 on the list) which fit in with the aesthetic I was looking to achieve.
+
+![color combo for red and off white background color](./assets/readme_images/logocombinations-malt-1024x502.png)
 
 ### Fonts
 
-- I used two fonts throughout the project, ** and **. Both were used with sans-serif font as a fallback. ** was used for the navigation and main headings and ** was used for the paragraph sections and footer.
+- I used two fonts throughout the project, Oswald and Raleway. Both were used with sans-serif font as a fallback. ** was used for the navigation and main headings and ** was used for the paragraph sections and footer.
 - All headings are uppercase and have consistent letter spacing to make more of a visual impact.
 - These fonts are used because of the excellent readability and appearance on screens of all sizes. These fonts were designed to be especially pleasant to read at very small sizes and both harmonize well with one another.
 - Both fonts were imported from [Google Fonts](https://fonts.google.com/).
@@ -108,6 +110,8 @@ The initial webpage layouts were sketched on the paper. Upon agreement of the la
 - The gallery page is split into different amount of columns of images depending on what device is being used so that this still looks visually appealing.
 - All images were provided by the band and lead singer Jack Armstrong who have bought or have been gifted the images by the photographer. All permissions have been granted by the band for them to be used.
     - Credits to the photographers, where the information is available:
+
+    **NEED TO ADD CREDITS**
 
 ### Videos
 
