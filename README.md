@@ -6,9 +6,11 @@
 
 ![Mockup](./assets/readme_images/Mockup.jpg)
 
+[Wireframe for website](https://github.com/Vivioli87/Mass_Ctrlr/tree/master/assets/readme_images/mass_ctrlr_wireframe.pdf)
+
 ## Table of Contents
 
-1. Overview
+1. [Overview](##Overview)
 2. User Experience
     - User Stories
         - Visitor Stories
@@ -29,7 +31,6 @@
 5. Testing
 6. Deployment
     - Github pages
-    - Making a Local Clone
 7. Credits
     - Code
     - Media
@@ -182,27 +183,27 @@ See further inforation on results found during validation on the separate testin
 
 ## Testing
 
-Testing process was written in a separate file [Testing doc]()
+Testing process was written in a separate file [Testing doc](https://github.com/Vivioli87/Mass_Ctrlr/blob/master/testing_readme.md)
 
 ## Deployment
 
 ### Github pages
 
 The project deployment to GitHub Pages is explained in the below steps:
-1.	Login into GitHub, locate and select *change link to Mass Ctrlr* from the list of Repositories.  
+1.	Login into GitHub, locate and select [Mass_Ctrlr](https://github.com/Vivioli87/Mass_Ctrlr) from the list of repositories.  
 
-*Add screenshot 
+![Repositories](./assets/readme_images/your_repositories.jpg)
 
 2.	At the top of the Repository page, under the sub-headings, select "Settings" button.  
 
-*Add screenshot  
+![Repositories](./assets/readme_images/deploy_settings.png)
 
 3.	Scroll down the page until you reach "GitHub Pages" section.
 4.	Under the "Source" sub-section, select "master" branch.
 5.	Click "Save" button.
 6.	The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
 
-*Add screenshot 
+![Repositories](./assets/readme_images/deploy_final.png)
 
 ## Credits
 
