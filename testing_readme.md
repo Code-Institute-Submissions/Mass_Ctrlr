@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-1. User Stories Testing.
-2. Code Validation.
-3. Functionality Testing.
-4. Performance Testing.
-5. Encountered Issues.
+1. [User Stories Testing](#user-stories-testing)
+2. [Code Validation](#code-validation)
+3. [Functionality Testing](#functionality-testing)
+4. [Performance Testing](#performance-testing)
+5. [Encountered Issues](#encountered-issues)
 
 ## User Stories Testing
 
@@ -64,6 +64,7 @@
 6.	As a business owner, I would like to increase gig bookings and other opportunities.
     - Before launching the website, the business owner was present only on social media platforms (Facebook and Instagram). With the website launching they will have the wider audience and another opportunity for bookings via the contact page (once this is set up with an email address associated with the band)
 
+[Back to table of contents](#table-of-contents)
 
 ## Code Validation
 
@@ -104,6 +105,8 @@ No errors for Contact page.
 
 ![CSS - validation](./assets/readme_images/css_validation.png)
 
+[Back to table of contents](#table-of-contents)
+
 ## Functionality Testing
 
 - Feature testing on each page.
@@ -143,6 +146,7 @@ I have tested other devices using the chrome developer tools including:
 
 The website is platform-cross compatible and has a consistant result.
 
+[Back to table of contents](#table-of-contents)
 
 ## Performance Testing
 
@@ -158,6 +162,7 @@ After dealing with these warnings this is now the results of the Lighthouse repo
 ![Second Lighthouse report](./assets/readme_images/Lighthouse_scores.jpg
 )
 
+[Back to table of contents](#table-of-contents)
 
 ## Encountered Issues
 
@@ -170,5 +175,5 @@ After dealing with these warnings this is now the results of the Lighthouse repo
 - For some reason the facebook embedded videos disappeared from browsers after fixing the issue above. Unclear as to the reason as I had not changed any of that code. 
     - checked embedded code again, re-added to ensure most recent code was added. Re-checked on all personal devices.
 
-
+[Back to table of contents](#table-of-contents)
 

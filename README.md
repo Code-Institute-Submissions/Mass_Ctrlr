@@ -6,37 +6,38 @@
 
 ![Mockup](./assets/readme_images/Mockup.jpg)
 
-[Wireframe for website](https://github.com/Vivioli87/Mass_Ctrlr/tree/master/assets/readme_images/mass_ctrlr_wireframe.pdf)
-
 ## Table of Contents
 
-1. [Overview](##Overview)
-2. User Experience
-    - User Stories
+1. [Overview](#overview)
+2. [User Experience](#ux-(user-experience))
+    - [User Stories](#user-stories)
         - Visitor Stories
         - Business Stories
-    - Structure
-    - Skeleton
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
         - Wireframes
-    - Design
+    - [Design](#design)
         - Color Scheme
         - Fonts
         - Imagery
+        - Videos
         - Icons
-        - Design difference
-3. Features
-    - Existing Features
+3. [Features](#features)
+    - Current Features
     - Future Implemenatation
-4. Technologies
-5. Testing
-6. Deployment
+4. [Technologies](#technologies)
+    - Languages
+    - Frameworks, Libraries and Tools
+    - Validation
+5. [Testing](#testing)
+6. [Deployment](#deployment)
     - Github pages
-7. Credits
+7. [Credits](#credits)
     - Code
     - Media
     - Content
-8. Acknowledgements
-9. Disclaimer
+8. [Acknowledgements](#acknowledgements)
+9. [Disclaimer](#disclaimer)
 
 ## Overview
 
@@ -45,6 +46,8 @@ My MS1 project in my Code Institute course – there were many different project
 The main goal of the website is to promote the band and their activities, expand their fan base, to create a central hub for all information and pages relating to the band and also to increase opportunities for the band such as bookings for events and gigs.  
 
 The Mass Ctrlr website was created as a Milestone Project 1 as a part of **Diploma in Full Stack Software Development** with **Code Institute**. The project is developed primarily using HTML and CSS programs, with a small amount of JavaScript implemented for additional functionality.  
+
+[Back to table of contents](#table-of-contents)
 
 ## UX (User Experience)
 
@@ -67,6 +70,8 @@ The user types for this website would be fans (old and new), key people within t
 5.	As a business owner, I would like for the users to have an option to enquire about booking the band for a gig or to gain more information.
 6.	As a business owner, I would like to increase gig bookings and other opportunities.
 
+[Back to table of contents](#table-of-contents)
+
 ## Structure
 
 Mass Ctrlr website is designed to be effective, consistent and user friendly.
@@ -86,9 +91,15 @@ Mass Ctrlr website is designed to be effective, consistent and user friendly.
     - Each page is clearly titled to make navigating the site clear and simple.
     - The content is organized and categorized by importance from left to right (navigation).
 
+[Back to table of contents](#table-of-contents)
+
 ## Skeleton
 
-The initial webpage layouts were sketched on the paper. Upon agreement of the layout and hierarchy, the wireframes were created in Balsamiq. Please view the wireframes for desktop, tablet and mobile screens on the following link: 
+The initial webpage layouts were sketched on the paper. Upon agreement of the layout and hierarchy, the wireframes were created in Balsamiq. Please view the wireframes for desktop, tablet and mobile screens on the following pdf: 
+
+[Wireframe PDF](https://github.com/Vivioli87/Mass_Ctrlr/tree/master/assets/readme_images/mass_ctrlr_wireframe.pdf)
+
+[Back to table of contents](#table-of-contents)
 
 ## Design
 
@@ -124,6 +135,9 @@ All videos were provided by the band and lead singer Jack Armstrong who own the 
 ### Icons
 
 I used several icons to improve the website's UX from - all came from [font awesome](https://fontawesome.com/).
+Icons were solely used within the footer for social media links and the get in touch symbol.
+
+[Back to table of contents](#table-of-contents)
 
 ## Features
 
@@ -143,20 +157,24 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
 - Contact information
     - Contact form allows users to contact the band for more information and for bookings.
 
-### Features for future Implemenatation
+### Future Implemenatation
 
 - Full functionality of the contact form page – at the moment the contact form does not go to the band as this has not been taught yet at this stage of my course. Ideally once the information has been submitted it would go to an email address associated with the band.
 - An improved gig news section – due to the current lockdown in the UK, the band has no gigs planned so currently the music page just has text informing the users about this situation. Future feature, when the band can perform live again, would have a link to the ticket website and/or links to the gig venue (if they are different), an image of the gig poster etc. This section may warrant its own separate page in the future.
 - Merchandise section – options for the user to buy the band’s merchandise, i.e adding payment methods to order products and collect the payment.
 
-## Languages
+[Back to table of contents](#table-of-contents)
+
+## Technologies
+
+### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) was used as the main language to complete the structure of the website.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the website.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used within bootstrap and embedded code functionality
 - [Markdown](https://en.wikipedia.org/wiki/Markdown) - used for the readme documnetation.
 
-## Frameworks, Libraries and Tools
+### Frameworks, Libraries and Tools
 
 - [Bootstrap v.4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used to create the navbar and contact form as well to make the website responsive.
 - [Font awesome](https://fontawesome.com/) icons were used in footer section for design features and better user experience.
@@ -174,16 +192,20 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
 - [Facebook developer](https://developers.facebook.com/docs/plugins/embedded-video-player/) - for guidance on embedding code.
 - [Markdown guide](https://www.markdownguide.org/basic-syntax/)
 
-## Validation
+### Validation
 
 - [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used for Markup validation.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used for CSS code validation.
 
-See further inforation on results found during validation on the separate testing document. [Testing doc]()
+See further inforation on results found during validation on the separate [testing document](https://github.com/Vivioli87/Mass_Ctrlr/blob/master/testing_readme.md).
+
+[Back to table of contents](#table-of-contents)
 
 ## Testing
 
-Testing process was written in a separate file [Testing doc](https://github.com/Vivioli87/Mass_Ctrlr/blob/master/testing_readme.md)
+Testing process was written in a separate document [Testing document](https://github.com/Vivioli87/Mass_Ctrlr/blob/master/testing_readme.md)
+
+[Back to table of contents](#table-of-contents)
 
 ## Deployment
 
@@ -205,11 +227,20 @@ The project deployment to GitHub Pages is explained in the below steps:
 
 ![Repositories](./assets/readme_images/deploy_final.png)
 
+[Back to table of contents](#table-of-contents)
+
 ## Credits
 
 ### Content
 
-The text for the home page was provided to me by the lead singer of the band, Jack Armstrong.
+The text for the home page was written and provided to me by the lead singer of the band, Jack Armstrong.
+
+### Code
+
+- Whilst having issues custom styling underlined headings i used the below two coding references to work out how to 1) underline in a different color using bottom border and 2) ensure the 'underline' is only on the heading by using a span element.
+
+    - [reference 1](https://css-tricks.com/styling-underlines-web/)   
+    - [reference 2](https://stackoverflow.com/questions/24106725/bottom-border-underline-the-text-only/24106863)
 
 ### Media
 
@@ -222,9 +253,11 @@ The text for the home page was provided to me by the lead singer of the band, Ja
 - [Code Institute](learn.codeinstitute.net) for all course materials and ongoing support.
 - Fellow Code Institute students for their feedback and suggestions.
 - My family and friends for testing and useful feedback.
-- The band themselves for the inspiration and help with content (band history influences etc)
+- The band themselves for the inspiration and help with content (band history, musical influences etc)
 
 ## Disclaimer
 
 The information provided on this website is for educational purposes only.
+
+[Back to table of contents](#table-of-contents)
 
