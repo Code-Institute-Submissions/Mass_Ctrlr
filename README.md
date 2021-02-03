@@ -147,6 +147,7 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
 
 - Navigation bar:
     - an easy way to navigate through the website to specific sections of the website.
+    - fixed top so that navigation links are always accessible to the user.
     - it is fully responsive and it collapses to navbar-toggler-icon (hamburger menu) on medium and small devices.
 - Footer bar – external links and easy link to ‘Get in touch’ page. 
     - The footer is consistent across all pages of the site and clearly allow the user to access the band’s music and social media pages which open in a new web page. 
