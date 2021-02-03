@@ -106,9 +106,6 @@ font-size: 18px;
     margin-top: 8px;
     height: 500px;
     background: url(../images/mass_ctrlr.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 /*main page content*/
@@ -274,9 +271,6 @@ font-size: 18px;
     .image-container{
     height: 250px;
     background: url(../images/mass_ctrlr_small.jpg) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; 
     }
     .navbar-brand{
