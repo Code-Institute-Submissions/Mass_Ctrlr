@@ -172,8 +172,9 @@ After dealing with these warnings this is now the results of the Lighthouse repo
 
 - After checking functionality after removing the code highlighted during the music page validation exercise, the apple music player would not show - I added back in the "allow-same-origin" attribute as this was only a warning rather than an error. Adding this back in fixed the issue of the player no longer showing.
 
-- For some reason the facebook embedded videos disappeared from browsers after fixing the issue above. Unclear as to the reason as I had not changed any of that code. 
-    - checked embedded code again, re-added to ensure most recent code was added. Re-checked on all personal devices.
+- For some reason the facebook embedded videos disappeared from browsers after fixing the issue above. Unclear as to the reason as I had not changed any of that code. I was also having issues with the embedded code as it kept providing inconsistent placements on different days despite not changing any code.
+    - After googling the issue i found out about using [iframely](https://iframely.com/) from a [stackoverflow post](https://stackoverflow.com/questions/42263810/responsive-facebook-embed-video) where one of the answers suggested using it for consistent results.
+![stackoverflow answer](./assets/readme_images/stackoverflow_fbvideo.png)
 
 [Back to table of contents](#table-of-contents)
 

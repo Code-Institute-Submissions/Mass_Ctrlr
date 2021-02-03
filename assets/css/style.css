@@ -42,13 +42,13 @@ h4{
 margin: 12px 0 18px;
 font-family: 'Oswald', sans-serif;
 text-transform: uppercase;
-font-size: 16px;
+font-size: 18px;
 }
 
 /*Nav bar*/
 
 .navbar{
-    background-color:#F7F7F9; /*added for fixed top nav bar with pages with hero images*/
+    background-color:#F7F7F9; /*added for fixed top nav bar*/
     border-bottom: 2px solid #D2302C;
 }
 
@@ -163,18 +163,18 @@ font-size: 16px;
     text-align: center;
 }
 
-.video-container div{
-    line-height: 500px;
+.video-container{
+    margin: 0 auto;   
 }
 
 .fb-video-container{
-    text-align: center;
     margin-top: 20px;   
     margin-bottom: 20px;
+    line-height: 600px;
 }
 
 .fb-video{
-    line-height: 500px;
+    line-height: 600px;
 }
 
 /*gallery page*/
