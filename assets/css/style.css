@@ -293,21 +293,6 @@ font-size: 18px;
 }
 }
 
-
-/*media queries for music page
-
-@media screen and (max-width:1200px){
-    .video-container{
-        column-count: 4;
-    }
-}
-
-@media screen and (max-width:1024){
-    .video-container{
-        column-count: 2;
-    }
-}*/
-
 /*media queries for gallery page*/
 
 @media screen and (max-width:1024px){
