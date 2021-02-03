@@ -235,6 +235,17 @@ font-size: 18px;
     border: 2px solid #D2302C;
 }
 
+.hidden-label{  /* added to visually hide labels but the label will still be readable by screen readers - reference url https://www.w3.org/WAI/tutorials/forms/labels/#note-on-hiding-elements*/
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 /*footer*/
 
 .footer-container{

@@ -244,6 +244,11 @@ The text for the home page was written and provided to me by the lead singer of 
     - [reference 1](https://css-tricks.com/styling-underlines-web/)   
     - [reference 2](https://stackoverflow.com/questions/24106725/bottom-border-underline-the-text-only/24106863)
 
+- I wanted a contact form without visiable labels however still visiable to screen readers
+    - [reference 1](https://stackoverflow.com/questions/2694683/how-to-hide-element-label-by-element-id-in-css/2694819)
+    - [reference 2](https://www.w3.org/WAI/tutorials/forms/labels/#note-on-hiding-elements)
+    
+
 ### Media
 
 - The photos and videos used in this site were obtained from the band themselves who own the rights to all the media. They are either their own media or the band have bought or have been gifted the media from the original owner. I have obtained permission from the band to use these for the website.
