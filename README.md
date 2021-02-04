@@ -106,14 +106,14 @@ The initial webpage layouts were sketched on the paper. Upon agreement of the la
 ### Color Scheme
 
 - I used three main colours for this project based on an existing logo the band use. The most eye catching colour being red. I also knew that the image on the landing page was one I wanted to use which also has a lot of red in the picture. According to the Color Psychology shades of red are linked to passion and power which I believe are fitting for a rock band that are passionate about live music.
-- The color #202020 and #222222 were used for text the darker shade being used for headings to make them stand out. The red color # was used sparingly to make key elements stand out, such as underlining headings, page dividers and links. Furthermore, the light background works well with the dark grey text and red highlights due to its contrast.
+- The color #202020 and #222222 were used for text the darker shade being used for headings to make them stand out. The red color #D2302C was used sparingly to make key elements stand out, such as underlining headings, page dividers and links. Furthermore, the light background works well with the dark grey text and red highlights due to its contrast.
 - To find an appealing off-white/red contrast, I happened upon the color combo on this [website](https://looka.com/blog/logo-color-combinations/) (Number 17 on the list) which fit in with the aesthetic I was looking to achieve.
 
 ![color combo for red and off white background color](./assets/readme_images/logocombinations-malt-1024x502.png)
 
 ### Fonts
 
-- I used two fonts throughout the project, Oswald and Raleway. Both were used with sans-serif font as a fallback. ** was used for the navigation and main headings and ** was used for the paragraph sections and footer.
+- I used two fonts throughout the project, Oswald and Raleway. Both were used with sans-serif font as a fallback. Oswald was used for the navigation and main headings and Raleway was used for the paragraph sections and footer.
 - All headings are uppercase and have consistent letter spacing to make more of a visual impact.
 - These fonts are used because of the excellent readability and appearance on screens of all sizes. These fonts were designed to be especially pleasant to read at very small sizes and both harmonize well with one another.
 - Both fonts were imported from [Google Fonts](https://fonts.google.com/).
@@ -133,6 +133,7 @@ The initial webpage layouts were sketched on the paper. Upon agreement of the la
 
 All videos were provided by the band and lead singer Jack Armstrong who own the videos. All permissions have been granted by the band for them to be used. These have been taken from the bands Facebook page, using the embed code option, this also provides another avenue for site users to access this social media page and view other videos. 
 - [Facebook developer](https://developers.facebook.com/docs/plugins/embedded-video-player/) - for guidance on embedding code.
+- [iframely](https://iframely.com/) was eventually used to embed the facebook videos as it gave a more consistent outcome and is more responsive than the facebook developer code..
 
 ### Icons
 
@@ -166,19 +167,23 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
     - As the band's single is spoken about, there is also a link inviting the user to navigate to the music page to find out more about the music and future performances.
     - There are also images at the bottom of the home page to allow the user to identify the individual band members. This is hidden on smaller devices to avoid the page looking too cluttered.
 - Music page
-    - The music page is split into 2 sections: music news for the band's releases and gig news for information about current/upcoming gigs.
+    - The music page is split into 2 sections: *music news* for the band's releases and *gig news* for information about current/upcoming gigs.
         - The music news section informs the user of the latest singe, provides links to the single on the band's Spotify and Apple music pages.
         - The music news section also has an embedded apple music player to allow users to listen to the current single without having to use the external links.
         - In the gig news section currently due to the band not having performances booked due to the lockdown situation, the site offers videos from the band's social media pages from past gigs to give the user more opportunities to hear the band's music, get to know their live style and it also provides another opportunity to access the band's social media pages..
             - On the larger screens all 3 videos are shown inline.
             - On the medium screens only 2 videos are shown inline.
-            - On mobile devices 2 videos are visiable in block.
+            - On mobile devices 2 videos are shown in 1 column.
 - Gallery page
-    - The gallery page shows various images of the band throughout their history. The gallery page is responsive to show 4 columns of pictures on the larger screens, 3 columns on medium screens and 2 columns on smaller screens.
+    - The gallery page shows various images of the band throughout their history. The gallery page is responsive to show:
+        - 4 columns of pictures on the larger screens
+        - 3 columns on medium screens 
+        - 2 columns on smaller screens.
 - Contact page
     - Contact form allows users to contact the band for more information and for bookings.
-    - The form has labels that are hidden but are still readable for screen readers.
-    - The contact form is responsive to be reduced in size for small devices.
+    - The form has labels that are hidden but are still readable for screen readers. Placeholder text is used for visual prompts to the user.
+    - All fields within the form are set to required to ensure all necessary information is required.
+    - The contact form is responsive to be reduced in size to be more visually appealing on smaller devices.
 
 ### Future Implemenatation
 
@@ -288,9 +293,12 @@ The text for the home page was written and provided to me by the lead singer of 
 
 ### Media
 
-- The photos and videos used in this site were obtained from the band themselves who own the rights to all the media. They are either their own media or the band have bought/been gifted the media from the original owner. I have obtained permission from the band to use these for the website. I have listed the original photographers below with links to their pages, where the information is available:
-    - [inkblots](https://www.instagram.com/lnkblots/)
-    - [Iz Williams](https://www.instagram.com/izbels/)
+- The photos and videos used in this site were obtained from the band themselves who own the rights to all the media. They are either their own media or the band have bought/been gifted the media from the original owner. I have obtained permission from the band to use these for the website.
+- Credits to the photographers, where the information has been provided by the band:
+        - [Amelia - inkblots](https://www.instagram.com/lnkblots/)
+        - [Iz Williams](https://www.instagram.com/izbels/)
+        - [Robbie Evans Photos](https://www.instagram.com/robbieevansphoto/)
+
 
 ## Acknowledgements
 
