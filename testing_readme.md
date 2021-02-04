@@ -1,5 +1,9 @@
 # Mass Ctrlr - Band Website (Testing section)
 
+[Main README.md file](https://github.com/Vivioli87/Mass_Ctrlr/blob/master/README.md)  
+
+[Please view the live project here](https://vivioli87.github.io/Mass_Ctrlr/)
+
 ## Table of contents
 
 1. [User Stories Testing](#user-stories-testing)
@@ -73,6 +77,8 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 
 ### W3C Markup Validation Service
 
+Checked using both validate by direct input and validate by URI options.
+
 #### Home page
 
 No errors for home page.
@@ -81,12 +87,9 @@ No errors for home page.
 
 #### Music page
 
-A warning and error came up on the music page (see screenshot below) both were from the embedded code for the apple music player. I removed the code highlighted in the validator and will check the player still functions correctly.
+A warning is showing on the music page (see screenshot below) from the embedded code for the apple music player. I removed the "allow-same-origin" attribute to try and fix this however it affected the functionality of the player.
 
-![Music page - validation (initial report with errors)](./assets/readme_images/music_page_validation(errors).png)
-![Music page - validation](./assets/readme_images/music_page_validation.png)
-
-After checking Functionality after removing the code, the apple music player would not show - I added back in the "allow-same-origin" attribute as this was only a warning rather than an error. Adding this back in fixed the issue of the player no longer showing.
+![Music page - validation](./assets/readme_images/music-page-validation.jpg)
 
 #### Gallery page
 
@@ -109,28 +112,32 @@ No errors for Contact page.
 
 ## Functionality Testing
 
-- Feature testing on each page.
-- Checked for broken links and that all external links open in a new browser tab.
-- Checked the responsive layout worked as intented, using both chrome developer tools and my own personal devices.
-- Checked that the contact form worked.
-- Asked friends to test out website also.
+- Feature testing on each page in turn and for all screen sizes using the developer tools, my own personal devices and got friends/family to test also.
+    - Checked that all links navigate correctly and that none are broken.
+    - Checked that all external links open in a new browser tab.
+    - Checked the responsive layout worked as intented, using both chrome developer tools and my own personal devices.
+    - Checked that the contact form worked and that the form dump page also opened in a bew browser tab.
+    - Checked that all elements that have a 'hover' attribute to them such as footer links, button on contact page respond correctly.
 
 ### Browser Testing
 
 The website was tested on the following browser types. All browser versions were up to date.
-- Google chrome
+- **Google chrome** - best performance with all cookies allowed.
 - Windows Internet explorer
 - Safari
 - Samsung Internet
-- Google chrome for Android
+- Google chrome for Android   
 
-The website is fully functioning and fully responsive on all above mentioned browsers.
+Due to the apple music player iframe on the music page, please ensure that all cookies are allowed to ensure that the music player funtions as it should.
+
+The website is functioning and fully responsive on all above mentioned browsers however **for best performance please use Google Chrome.**
 
 ### Device Testing
 
 For all my media queries, I used the following page for help on [standard device sizes](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 The website was tested on the following devices:
+- desktop computer
 - Samsung Galaxy A70
 - Apple iPad
 
@@ -143,6 +150,7 @@ I have tested other devices using the chrome developer tools including:
 - iPhone 5 / SE / 6 / 7 / 8 (incl Plus options) / X
 - iPad / iPad Pro
 - Surface duo
+- Laptop
 
 The website is platform-cross compatible and has a consistant result.
 
@@ -150,17 +158,31 @@ The website is platform-cross compatible and has a consistant result.
 
 ## Performance Testing
 
-Using lighthouse on Google Chrome developer tools.
+Using lighthouse on Google Chrome developer tools - reports generated 04/02/2021.
 
-Initially 'the best practice result' was in amber due to external links not having rel=”noopener” - [explanation for why best practice](https://web.dev/external-anchors-use-rel-noopener/). My mentor took the photo and shared it over slack, I did not take a picture of this myself.
+#### Home page
 
-![First Lighthouse report](./assets/readme_images/first_lighthouse_scores.jpg
-)
+![Home page](./assets/readme_images/lighthouse_index_page.jpg)
 
-After dealing with these warnings this is now the results of the Lighthouse report for the website.
+#### Music page
 
-![Second Lighthouse report](./assets/readme_images/Lighthouse_scores.jpg
-)
+![Music page](./assets/readme_images/lighthouse_music_page.jpg)
+
+#### Gallery page
+
+![Gallery page](./assets/readme_images/lighthouse_gallery_page.jpg)
+
+#### Contact page
+
+![Gallery page](./assets/readme_images/lighthouse_contact_page.jpg)
+
+For the performance sections that are in amber, the remaining issues all relate to external/third party resources used such as bootstrap and font awesome which I am unable to fix.
+
+### Issues highlighted from Lighthouse reports and fixed.
+
+- external links not having rel=”noopener” - [explanation for why best practice](https://web.dev/external-anchors-use-rel-noopener/).
+- issues with image sizes and formats in performance section.
+- meta descriptions missing for pages.
 
 [Back to table of contents](#table-of-contents)
 
@@ -170,11 +192,17 @@ After dealing with these warnings this is now the results of the Lighthouse repo
     - for images within html files I added . infront of the /assets/ filepath to fix this issue.
     - for images within the style.css file I added .. infront of the /images/ filepath to fix this issue.
 
+- In incognito mode on Google Chrome, the apple player wouldn't load and produced a console error regarding privacy settings. To fix this and allow full functionality the user must follow the following steps:
+    1. Go to Google Chrome's security settings
+    2. Go to 'Cookies and other site data'
+    3. Select 'allow all cookies'
+
 - After checking functionality after removing the code highlighted during the music page validation exercise, the apple music player would not show - I added back in the "allow-same-origin" attribute as this was only a warning rather than an error. Adding this back in fixed the issue of the player no longer showing.
 
 - For some reason the facebook embedded videos disappeared from browsers after fixing the issue above. Unclear as to the reason as I had not changed any of that code. I was also having issues with the embedded code as it kept providing inconsistent placements on different days despite not changing any code.
     - After googling the issue i found out about using [iframely](https://iframely.com/) from a [stackoverflow post](https://stackoverflow.com/questions/42263810/responsive-facebook-embed-video) where one of the answers suggested using it for consistent results.
 ![stackoverflow answer](./assets/readme_images/stackoverflow_fbvideo.png)
+
 
 [Back to table of contents](#table-of-contents)
 

@@ -122,10 +122,12 @@ The initial webpage layouts were sketched on the paper. Upon agreement of the la
 
 - For the website I used impactful images of the band to help create a visual story of the bands history and energy, including pictures from recording sessions and live performances. The main image used on the home page and contact form has similar colors to that of the website.
 - The gallery page is split into different amount of columns of images depending on what device is being used so that this still looks visually appealing.
-- All images were provided by the band and lead singer Jack Armstrong who have bought or have been gifted the images by the photographer. All permissions have been granted by the band for them to be used.
-    - Credits to the photographers, where the information is available:
+- All images were provided by the band and lead singer Jack Armstrong who have purchased or have been gifted the images by the photographers. All permissions have been granted by the band for them to be used.
+    - Credits to the photographers, where the information has been provided by the band:
+        - [Amelia - inkblots](https://www.instagram.com/lnkblots/)
+        - [Iz Williams](https://www.instagram.com/izbels/)
+        - [Robbie Evans Photos](https://www.instagram.com/robbieevansphoto/)
 
-    **NEED TO ADD CREDITS**
 
 ### Videos
 
@@ -145,18 +147,38 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
 
 ### Current Features
 
-- Navigation bar:
+- Navigation bar (on all pages):
     - an easy way to navigate through the website to specific sections of the website.
     - fixed top so that navigation links are always accessible to the user.
     - it is fully responsive and it collapses to navbar-toggler-icon (hamburger menu) on medium and small devices.
-- Footer bar – external links and easy link to ‘Get in touch’ page. 
+    - the navigation bar is fixed to the top so that the user can easily find navigation links at any section of the web page.
+- Footer bar – external links and easy link to ‘Get in touch’ page.
+    - Links to social media and music pages for the band to generate more followers
     - The footer is consistent across all pages of the site and clearly allow the user to access the band’s music and social media pages which open in a new web page. 
-    - o	The footer also reminds the user that they can get in touch with the band about bookings which is a link to the contact form of the page (opens in same window as not an external link).
+    - The footer also reminds the user that they can get in touch with the band about bookings which is a link to the contact form of the page (opens in same window as not an external link).
+    - The footer's layout is responsive in design with
 - Responsive
     - Drop-down navbar on medium and small devices.
-    - Size and layout differences to be more aesthetically pleasing on medium and small devices.
-- Contact information
+    - Size and layout differences to be more aesthetically pleasing on medium and small devices, which is discussed in the specific pages below.
+- Home page
+    - The home page features a hero image of the band at a past live performance. This immediately gives the user an idea of who the band are. The picture also fits in well with the color scheme of the website.
+    - There is a desciption of the band's history and the musical influences of each band member to allow the user to 'get to know' the band.
+    - As the band's single is spoken about, there is also a link inviting the user to navigate to the music page to find out more about the music and future performances.
+    - There are also images at the bottom of the home page to allow the user to identify the individual band members. This is hidden on smaller devices to avoid the page looking too cluttered.
+- Music page
+    - The music page is split into 2 sections: music news for the band's releases and gig news for information about current/upcoming gigs.
+        - The music news section informs the user of the latest singe, provides links to the single on the band's Spotify and Apple music pages.
+        - The music news section also has an embedded apple music player to allow users to listen to the current single without having to use the external links.
+        - In the gig news section currently due to the band not having performances booked due to the lockdown situation, the site offers videos from the band's social media pages from past gigs to give the user more opportunities to hear the band's music, get to know their live style and it also provides another opportunity to access the band's social media pages..
+            - On the larger screens all 3 videos are shown inline.
+            - On the medium screens only 2 videos are shown inline.
+            - On mobile devices 2 videos are visiable in block.
+- Gallery page
+    - The gallery page shows various images of the band throughout their history. The gallery page is responsive to show 4 columns of pictures on the larger screens, 3 columns on medium screens and 2 columns on smaller screens.
+- Contact page
     - Contact form allows users to contact the band for more information and for bookings.
+    - The form has labels that are hidden but are still readable for screen readers.
+    - The contact form is responsive to be reduced in size for small devices.
 
 ### Future Implemenatation
 
@@ -192,6 +214,7 @@ Mass Ctrlr is built to be fully responsive mobile-first website. This was primar
 - [W3C Spell checker](https://www.w3.org/2002/01/spellchecker) was used to check the spelling of the webpage.
 - [Facebook developer](https://developers.facebook.com/docs/plugins/embedded-video-player/) - for guidance on embedding code.
 - [Iframely](https://iframely.com/) used when I was getting inconsistent results from the facebook developer.
+- [Cloudinary](https://cloudinary.com/) used to transform image formats to webp and to host the pictures in order to improve performance scores on Lighthouse audit.
 - [Markdown guide](https://www.markdownguide.org/basic-syntax/)
 
 ### Validation
@@ -231,6 +254,20 @@ The project deployment to GitHub Pages is explained in the below steps:
 
 [Back to table of contents](#table-of-contents)
 
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+    - A Github account. Create a Github account here
+    - Use the Chrome browser   
+
+Then follow these steps:
+1. Install the Gitpod Browser Extentions for Chrome
+2. After installation, restart the browser
+3. Log into Gitpod with your github account.
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
 ## Credits
 
 ### Content
@@ -251,8 +288,9 @@ The text for the home page was written and provided to me by the lead singer of 
 
 ### Media
 
-- The photos and videos used in this site were obtained from the band themselves who own the rights to all the media. They are either their own media or the band have bought or have been gifted the media from the original owner. I have obtained permission from the band to use these for the website.
-- Videos have been taken from the band’s facebook page.
+- The photos and videos used in this site were obtained from the band themselves who own the rights to all the media. They are either their own media or the band have bought/been gifted the media from the original owner. I have obtained permission from the band to use these for the website. I have listed the original photographers below with links to their pages, where the information is available:
+    - [inkblots](https://www.instagram.com/lnkblots/)
+    - [Iz Williams](https://www.instagram.com/izbels/)
 
 ## Acknowledgements
 
